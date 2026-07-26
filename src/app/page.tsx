@@ -18,8 +18,8 @@ interface AnalysisResponse {
   matchScore: number
   matchedSkills: string[]
   missingSkills: string[]
-  resumeKeywordCount: number
-  jobKeywordCount: number
+  resumeSkillCount: number
+  jobSkillCount: number
   aiSummary: string | null
   error?: string
 }
