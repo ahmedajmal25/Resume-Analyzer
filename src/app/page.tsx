@@ -12,7 +12,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import { FileText, Upload, Sparkles, Loader2 } from "lucide-react"
+import { FileText, Upload, Sparkles, Loader2 } from "@/components/icons"
 
 interface AnalysisResponse {
   matchScore: number
